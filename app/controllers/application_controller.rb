@@ -24,7 +24,6 @@ class ApplicationController < Sinatra::Base
         else
           redirect "/failure"
         end
-
   end
 
   get '/account' do
@@ -38,7 +37,8 @@ class ApplicationController < Sinatra::Base
   end
 
   post "/login" do
-    ##your code here
+    
+    
   end
 
   get "/failure" do
